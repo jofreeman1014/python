@@ -1,8 +1,7 @@
 # Georgia Tech Bootcamp - Python
 
 ## [Python Overview](https://github.com/jofreeman1014/gt_python/tree/master/Python%20Basics)
-* Feel confident reading data into Python from CSV files.
-* Feel confident writing data from Python into CSV files.
+* Feel confident reading/writing data from Python.
 * Have a firm understanding on how to create and use Python functions.
 * Have a firm understanding of coding logic and reasoning.
 
