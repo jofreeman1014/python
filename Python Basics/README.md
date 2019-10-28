@@ -1,4 +1,4 @@
-# Assignment Background:
+# Assignment Background: PyPoll
 
 Using an included dataset [election_data.csv](PyPoll/Resources/election_data.csv) my task was to create a Python script that analyzes the votes and calculates each of the following:
 
