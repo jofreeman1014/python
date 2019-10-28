@@ -2,7 +2,9 @@
 
 The main premisce of this project focused on using Pandas dataframes to analyze player and item data from a data source.
 
-After analyzing the data, I came across the following results.
+After analyzing the data, I came across the following results:
+
+----
 
 ## Players
 
@@ -20,6 +22,7 @@ Most of our players fall within the 20 to 24 y/o age range, accounting for 44.79
 
 I also pulled results about some of our top spenders. Our current highest spender is **Lisosia93**. He has spent \\$18.96 on 5 different items. He's followed by **Idastidru52** (\\$15.45) and **Chamjask73** (\\$13.83).
 
+----
 
 ## Items
 

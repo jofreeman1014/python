@@ -15,6 +15,8 @@ This assignment focuses on analyzing a fictional ride-sharing company's data usi
 ## Driver % by City Type
 ![Drivers By City](Images/DriverbyType.png)
 
+----
+
 ## Trends:
 
 ### 1 - Fare Breakdown
