@@ -1,14 +1,23 @@
-# Unit 6 | Assignment - What's the Weather Like?
+# Assignment Background: What's the Weather Like?
 
-## Background
+The basis for this project was analyzing weather trends across latitudes using Python, Matplotlib plots, and API calls to acquire data. Once an [OpenWeatherMap](https://openweathermap.org/) API key is supplied to the keys file, this program will generate a list of randomly selected cities, use those cities to make API calls to pull weather data, and populate a dataframe with the weather data for analysis. After the data is collected, the dataframe is then cleaned and saved to [cities.csv](Outputs/cities.csv).
 
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+The plots that follow were used to find trends between Latitude and select weather parameters: Temperature, Humidity, Cloudiness, and Wind Speed.
 
-Now, we know what you may be thinking: _"Duh. It gets hotter..."_
+![Temp](Output/LatTemp.png)
 
-But, if pressed, how would you **prove** it?
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Temp](Outputs/LatvTemp.png) |  ![Temp](Output/LatvHum.png)
+![Temp](Outputs/LatvCloud.png) |  ![Temp](Output/LatvWind.png)
 
-![Equator](Images/equatorsign.png)
+ I also plotted the Lat/Long points to see the data point distribution visually, as this roughly renders points as a map.
+
+![Temp](Outputs/LatLngDist.png) 
+
+ I also plotted a Lat/Long histogram to see the distribution of my data, to find regions that may be overrepresented or underrepresented.
+
+![Temp](Output/LatLongDist.png)
 
 ## WeatherPy
 
@@ -51,6 +60,19 @@ As final considerations:
 * In building your script, pay attention to the cities you are using in your query pool. Are you getting coverage of the full gamut of latitudes and longitudes? Or are you simply choosing 500 cities concentrated in one region of the world? Even if you were a geographic genius, simply rattling 500 cities based on your human selection would create a biased dataset. Be thinking of how you should counter this. (Hint: Consider the full range of latitudes).
 
 * Lastly, remember -- this is a challenging activity. Push yourself! If you complete this task, then you can safely say that you've gained a strong mastery of the core foundations of data analytics and it will only go better from here. Good luck!
+
+----
+# Analysis
+
+### Trend 1: 
+For this randomly selected dataset, I found that max temperatures tend to decrese with increasing latitude, peaking at ~25 degrees latitude. That being said, the positive latitudinal half accounts for the majority of the data, as the Northern Hemisphere has a majority of the landmass. Cloudiness follows a similar trend in the Northern Hemisphere as well, and this may again be attributed to the larger amount of landmass in the Northern Hemisphere.
+
+### Trend 2:
+Low humidity areas tend to be closer to the equator, with some of the lowest humidity readings coming from between 20-30 degrees North or South of the equator. Lowest humidities tend to go to higher percents outside of the 20-30 degree (North/South). Otherwise, humidity tends to be < 60% for most reported latitudes. Windiness does not appear to have a strong correlation with latitudes.
+
+### Trend 3:
+With over 500 data points, I am able to get a set of data that's well distributed across the continents. That being said, there are some holes in the data. Certain regions of continents don't tend to appear in the data set, and most of these are in scarcely inhabited or inhabitable areas such as the Amazon Rainforest, Sahara Desert, the outback of Austrailia, and Northern regions of Northern Hemisphere continents. Throughout this project, I regularly saw holes in my Latitude/Longitude
+data distribution. 
 
 ## Copyright
 
