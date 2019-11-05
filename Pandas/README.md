@@ -28,6 +28,7 @@ I also pulled results about some of our top spenders. Our current highest spende
 
 On the topic of items, I decided to do a dive into the items that our users have been purchasing to see what's popular among our players. Currently, our **Oathbreaker, Last Hope of the Breaking Storm**	has net us \\$50.76 as our most popular and profitable item, followed by the **Fiery Glass Crusader** with a profit of \\$41.22 and **Extraction, Quickblade Of Trembling Hands** with a profit of \\$31.77. 
 
+----
 ## Copyright
 
 Data Boot Camp © 2018. All Rights Reserved.
